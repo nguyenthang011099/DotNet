@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/thang/Documents/code/helloWorld/helloWorld.csproj": {}
+  },
+  "projects": {
+    "/home/thang/Documents/code/helloWorld/helloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/thang/Documents/code/helloWorld/helloWorld.csproj",
+        "projectName": "helloWorld",
+        "projectPath": "/home/thang/Documents/code/helloWorld/helloWorld.csproj",
+        "packagesPath": "/home/thang/.nuget/packages/",
+        "outputPath": "/home/thang/Documents/code/helloWorld/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/thang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
